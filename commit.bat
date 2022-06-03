@@ -64,7 +64,7 @@ CALL :BOLD_ECHO " - Pushing all changes from this directory to Github"
 CALL :BOLD_ECHO_AND_RUN "    git add --all"
 echo [1m      git commit -m "%commit_message%"[0m  
 git commit -m "%commit_message%"
-CALL :BOLD_ECHO_AND_RUN "    git push origin HEAD:master"
+CALL :BOLD_ECHO_AND_RUN "    git push origin HEAD:main"
 
 REM Wait until key is pressed is the file was double clicked
 REM ////////////////////////////////////////////////////////////
