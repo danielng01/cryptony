@@ -1,5 +1,5 @@
 @echo off
-set INTERVAL=300
+set INTERVAL=60
 :loop
 git add -A
 git commit -m "loop"
