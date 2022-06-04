@@ -32,4 +32,4 @@ Cryptony Blockchains Data
 
 <p>For the <code>S?</code>, <code>A?</code>, and <code>C?</code> columns it's either <code>+</code> (which means "yes") or nothing. <code>⌘</code> means some additional options may be available (in case of aggregation it may either mean additional fields like <code>year</code> are available, or in case of functions — only <code>min</code> and <code>max</code> are available).</p>
 
-<h2><a name="link_M41"></a> Inifinitable endpoints for Bitcoin-like blockchains (Bitcoin, Bitcoin Cash, Litecoin, Bitcoin SV, Dogecoin, Dash, Groestlcoin, Zcash, eCash, Bitcoin Testnet)</h2>
+<h2>Tables</h2>
