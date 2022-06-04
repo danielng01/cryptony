@@ -9,4 +9,4 @@ Cryptony Blockchains Data
 
 [Bitcoin blocks tsv](bitcoin-blocks/tsv)
 
-[Bitcoin blocks tsv README](bitcoin-blocks/tsv/README.md)
+[Bitcoin blocks README](bitcoin-blocks/README.md)
