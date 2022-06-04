@@ -11,6 +11,10 @@ Cryptony Blockchains Data
 
 [Bitcoin blocks README](bitcoin-blocks/README.md)
 
+<strong>Table descriptions</strong>
+
+<p>Further the documentation describes each of the supported tables. Each documentation section contains a general description, and a table listing the table columns (fields) in the following format:</p>
+
 | Column | Type | Description | Q? | S? | A? | C? |
 | --- | --- | --- | --- | --- | --- | --- |
 | Column name | Column type | Column description | Is it possible to filter by this column? | Is it possible to sort by this column? | Is it possible to group by this column? | Is it possible to apply aggregation functions (like sum) to this column? |
