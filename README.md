@@ -15,3 +15,17 @@ Cryptony Blockchains Data
 | --- | --- | --- | --- | --- | --- | --- |
 | Column name | Column type | Column description | Is it possible to filter by this column? | Is it possible to sort by this column? | Is it possible to group by this column? | Is it possible to apply aggregation functions (like sum) to this column? |
 
+<p>The following marks are possible for the <code>Q?</code> column:</p>
+
+<ul>
+<li><code>=</code> — possible to use equalities only</li>
+<li><code>*</code> — possible to use both equalities and inequalities</li>
+<li><code>⌘</code> — possible to use special format (applies to timestamp fields)</li>
+<li><code>~</code> — possible to use the <code>LIKE</code> operator</li>
+<li><code>^</code> — possible to use the <code>STARTS WITH</code> operator</li>
+<li><code>*≈</code> — possible to use both equalities and inequalities, may return some results which are a bit out of the set range (this is used to swiftly search over  the Ethereum blockchain that uses too long wei numbers for transfer amounts)</li>
+</ul>
+
+<p>For the <code>S?</code>, <code>A?</code>, and <code>C?</code> columns it's either <code>+</code> (which means "yes") or nothing. <code>⌘</code> means some additional options may be available (in case of aggregation it may either mean additional fields like <code>year</code> are available, or in case of functions — only <code>min</code> and <code>max</code> are available).</p>
+
+<h2><a name="link_M41"></a> Inifinitable endpoints for Bitcoin-like blockchains (Bitcoin, Bitcoin Cash, Litecoin, Bitcoin SV, Dogecoin, Dash, Groestlcoin, Zcash, eCash, Bitcoin Testnet)</h2>
